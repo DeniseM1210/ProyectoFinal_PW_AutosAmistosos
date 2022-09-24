@@ -10,6 +10,28 @@ body {
   font-family: "Nunito", sans-serif;
   color: #384047;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    position: fixed;
+    width: 100%;
+    height: 13%;
+    background-color: #4f76c9;
+    z-index: -1;
+}
+.opciones{
+    position: absolute;
+    margin-top: 1.75%;
+    font-size: 150%;
+    font-family: Arial;
+}
+.opciones:hover{
+    color: white;
+}
+#btnVentas{margin-left: 20%; cursor: pointer;}
+#btnAutos{margin-left: 30%; cursor: pointer;}
 
 form {
   max-width: 300px;
