@@ -11,7 +11,7 @@
     <title>Autos Amistosos</title>
 </head>
 <body>
-<nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+<nav id="header" class="navbar navbar-expand-lg sticky-top" style="background: #6D9EE2 !important;">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 Autos Amistosos</a>

@@ -15,6 +15,8 @@
         require_once('header.php')
     ?>
 
-    <h3> Ventas </h3>
+    <h3 > Ventas </h3>
+
+
 </body>
 </html>
