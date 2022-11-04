@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/dae357c832.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>Autos Amistosos</title>
 </head>
 <body>
 <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
@@ -22,23 +22,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="#carrusel">Ventas</a>
+                        <a class="nav-link" href="#">Ventas</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#ponentes">Ponentes Principales</a>
+                        <a class="nav-link" href="#">Autos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#lugarFecha">Lugar y Fechas</a>
+                        <a class="nav-link" href="#">Clientes</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#calendario">Calendario</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#inscribe">Inscribe a tú equipo</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="btn btn-outline-success" data-bs-toggle="" href="#"><strong>Comprar
-                                Entradas</strong></a>
+                        <a class="nav-link" href="#">Empleados</a>
                     </li>
                 </ul>
             </div>
