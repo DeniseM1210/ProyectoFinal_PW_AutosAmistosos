@@ -13,7 +13,7 @@ class AutoDAO{
 
     //ALTAS
     public function agregar($id,$precio,$modelo,$año,$fabricacion,$cilindros,$puertas,$peso,$capacidad,$color){
-        $sql = "INSERT INTO autos VALUES('$id','$precio','$modelo','$año','$fabricacion','$cilindros,'$puertas','$peso','$capacidad','$color');";
+        $sql = "INSERT INTO autos VALUES('$id',$precio,'$modelo','$año','$fabricacion','$cilindros,'$puertas',$peso,'$capacidad','$color');";
         $res = mysqli_query($this->conexion->getConexion(),$sql);
         return $res;
     }
@@ -38,7 +38,7 @@ class AutoDAO{
     }
 
     public function modificar($id,$precio,$modelo,$año,$fabricacion,$cilindros,$puertas,$peso,$capacidad,$color){
-        $sql = "UPDATE autos SET precio='$precio', modelo='$modelo', año='$año', fabricacion='$fabricacion', cilindros='$cilindros', puertas='$puertas', peso='$peso', capacidad='$capacidad', color='$color' WHERE id='$id';";
+        $sql = "UPDATE autos SET precio=$precio, modelo='$modelo', año='$año', fabricacion='$fabricacion', cilindros='$cilindros', puertas='$puertas', peso=$peso, capacidad='$capacidad', color='$color' WHERE id='$id';";
         $res = mysqli_query($this->conexion->get_conexion(),$sql);
         return $res;
     }
