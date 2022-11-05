@@ -1,11 +1,11 @@
 <?php
     class Conexion{
-        //Modificar Datos para BAse de datos en WEbHOST
+        
         private $conexion;
         private $host="localhost";
-        private $usuario = "";
-        private $contraseña = "1234";
-        private $db = "autos_amistosos"; 
+        private $usuario = "id19815890_administrador";
+        private $contraseña = "a!gPW}%610C0%LsI";
+        private $db = "id19815890_autosamistosos"; 
 
         public function __construct(){
             $this->conexion = mysqli_connect($this->host,$this->usuario,$this->contraseña,$this->db);
