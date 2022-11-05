@@ -15,11 +15,6 @@
         require_once('header.php')
     ?>
 
-
-    <section>
-
-    </section>
-
     <div class="container">
         <div class="row row-cols-2">
             <div class="col text-center">
