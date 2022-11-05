@@ -7,18 +7,17 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/dae357c832.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../../../css/main.css">
-    <title>Ventas</title>
+    <title>Empleados</title>
 </head>
 <body>
     <?php
-        require_once('header.php')
+        require_once('header.php');
     ?>
 
     <div class="container">
             <div class="row row-cols-2">
                 <div class="col text-center">
-                    <h3> Ventas </h3>
+                    <h3> Empleados </h3>
                     <select id="opcion">
                         <option selected>Seleccione una opción...</option>
                         <option value="altas">Altas </option>
@@ -33,28 +32,38 @@
                     <form action="#" method="post">
                         <div class="form-row">
                             <div class="form-group"> 
-                                <label for="id_auto">ID Auto:</label>  
-                                <input type="text" class="form-control" id="id_auto" placeholder="ID Auto" required>
+                                <label for="id_emp">ID:</label>  
+                                <input type="text" class="form-control" id="id_emp" placeholder="ID Empleado" required>
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="form-group">  
-                                <label for="id_cliente">ID Cliente:</label> 
-                                <input type="text" class="form-control" id="id_cliente" placeholder="Id Cliente" required>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label for="info_e">Información Extra:</label>   
-                                <textarea class="form-control" id="info_e" rows="3"> </textarea>
+                                <label for="nombre">Nombre:</label> 
+                                <input type="text" class="form-control" id="nombre" placeholder="Nombre" required>
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="form-group">  
-                                <label for="precio">Precio:</label> 
-                                <input type="text" class="form-control" id="precio" placeholder="Precio" required>
+                                <label for="ap_pat">Apellido Paterno:</label> 
+                                <input type="text" class="form-control" id="ap_pat" placeholder="Apellido Paterno" required>
                             </div>
                         </div>
+                        <div class="form-row">
+                            <div class="form-group">  
+                                <label for="ap_mat">Apellido Materno:</label> 
+                                <input type="text" class="form-control" id="ap_mat" placeholder="Apellido Materno" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                        <div class="form-group"> 
+                            <label for="puesto">Puesto:</label>  
+                            <select class="form-select" id="puesto">
+                                <option selected>Seleccione el Puesto... </option>
+                                <option value="ventas">Ventas </option>
+                                <option value="marketing">Marketing </option>
+                            </select>
+                        </div>
+                    </div>
                     </form>
                     <br>
                     <br>
@@ -64,7 +73,6 @@
                     <input class="btn btn-primary pt-4 pb-4 mt-2 mb-2" type="button" value="-" id="btn_op">
                 </div>
             </div>
-            
         </div>
 </body>
 </html>

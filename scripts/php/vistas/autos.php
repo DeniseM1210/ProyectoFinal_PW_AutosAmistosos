@@ -124,10 +124,7 @@
                 </form>
             </div>
             <div class="col">
-                <input class="btn btn-primary pt-4 pb-4 mt-2 mb-2" type="button" value="Agregar" id="btn_add">
-                <input class="btn btn-primary pt-4 pb-4 mt-2 mb-2" type="button" value="Eliminar" id="btn_eli">
-                <input class="btn btn-primary pt-4 pb-4 mt-2 mb-2" type="button" value="Cambiar" id="btn_cam">
-                <input class="btn btn-primary pt-4 pb-4 mt-2 mb-2" type="button" value="Consultar" id="btn_cons">
+                <input class="btn btn-primary pt-4 pb-4 mt-2 mb-2" type="button" value="-" id="btn_op">
             </div>
         </div>
         

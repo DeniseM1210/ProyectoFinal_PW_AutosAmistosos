@@ -29,10 +29,10 @@
                         <a class="nav-link" href="autos.php">Autos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Clientes</a>
+                        <a class="nav-link" href="clientes.php">Clientes</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Empleados</a>
+                        <a class="nav-link" href="empleados.php">Empleados</a>
                     </li>
                     <li class="nav-item">
                         <a class="btn btn-outline-dark" data-bs-toggle="" href="../../../index.html"></strong>
