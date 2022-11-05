@@ -38,5 +38,11 @@
             </div>
         </div>
     </nav>
+
+    <div style="margin: 0 auto; background-color:#6D9EE2; position: fixed; bottom: 0; padding: 15px ; width: 100%;">
+            <i class="fa-brands fa-facebook fa-2x " style="color:#000000;"></i>
+            <label style="float: right ; font-weight: bold;">Metodo para Empleado</label>
+            <i class="fa-solid fa-user fa-2x" style="color:#000000; float: right; "></i>
+    </div>
 </body>
 </html>
