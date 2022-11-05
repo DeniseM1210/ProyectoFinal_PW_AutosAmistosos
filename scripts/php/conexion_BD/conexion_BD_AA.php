@@ -1,38 +1,34 @@
 <?php
     class Conexion{
+        
         private $conexion;
         private $host="localhost";
-        private $usuario = "aa";
-        private $contraseña = "1234";
-        private $db = "autos_amistosos"; 
+        private $usuario = "id19815890_administrador";
+        private $contraseña = "a!gPW}%610C0%LsI";
+        private $db = "id19815890_autosamistosos"; 
 
         public function __construct(){
-                try{
-                    $this->conexion = new PDO("pgsql:host=$this->host; dbname=$this->db", $this->usuario,$this->contraseña );
-                    echo "Conexion con exito";
-                }catch(PDOException $exp){
-                    echo "conexion erronea";
-                }
-                
-                
-
-                
-            
-            
-
-                
-            
+            $this->conexion = mysqli_connect($this->host,$this->usuario,$this->contraseña,$this->db);
+            if(!$this->conexion){
+                die("Error en conexion a BD" . mysqli_connection_error() . mysqli_connect_errno());
+            }else{
+                echo "Conexion exitosa"; //Borar esto
+            }
         }
-
-        public function getConn(){
+        
+        public function getConexion(){
             return $this->conexion;
+        }      
+    
         }
+
+       
        
 
 
 
 
 
-    }
+    
 
 ?>
